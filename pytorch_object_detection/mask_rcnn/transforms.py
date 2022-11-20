@@ -1,8 +1,10 @@
 import random
-from torchvision.transforms import functional as F
-from torch import nn
-from torchvision.transforms import functional as F, InterpolationMode, transforms as T
+
 import torch
+from torch import nn
+from torchvision.transforms import functional as F
+from torchvision.transforms import transforms as T
+
 
 class Compose(object):
     """组合多个transform函数"""
